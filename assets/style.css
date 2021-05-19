@@ -1,3 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 justify-content {
   justify-content: flex-end;
 }
+
+ul {
+  justify-content: flex-end;
+  display:flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+.header {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  border-bottom: 2px dotted rgb(145, 13, 206);
+}
+li {
+  margin: 10px;
+}
+.name {
+  margin-left: 15px;
+}
+#About {
+  display: flex;
+  position: absolute;
+  width:100%;
+  background-color: crimson;
+  top: 0;
+  left: 0;
+}
+/* #ids {
+  position:absolute;
+  left: 20%;
+} */
