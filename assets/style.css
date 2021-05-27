@@ -50,7 +50,7 @@ span {
 
 .home h1 {
   font-size: 4em;
-  line-height: 1.3em;
+  line-height: .8em;
   font-weight: bolder;
   text-transform: uppercase;
  
@@ -58,8 +58,38 @@ span {
 
 .home p {
   font-size: 1.4em;
+  color: black;
+  font-weight: bold;
 }
 
+main {
+  text-align: center;
+  line-height: 3em;
+  color: #20272e;
+}
+
+.section_1 {
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+}
+
+.texts {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  /* padding: 20em; */
+  margin-top: 3em;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: center;
+}
+
+article h2 {
+  /* padding-top: 4em;
+  padding-bottom: 4em; */
+  font-size: 2em;
+}
 
 /* 
 
@@ -92,5 +122,11 @@ section h1 {
 } */
 .img {
   background-image: url("image_01.jpeg"); 
+  padding-bottom: 7.5em;
+}
+
+#name {
+  width: 20%;
+  height: 25px;
 }
 
