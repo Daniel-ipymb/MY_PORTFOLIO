@@ -8,10 +8,6 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* .justify-content {
-  justify-content: center;
-} */
-
 .navbar {
   display: flex;
   width: 100vw;
@@ -75,10 +71,6 @@ main {
 }
 
 .texts {
-  /* display: flex;
-  justify-content: center;
-  flex-direction: column; */
-  /* padding: 20em; */
   margin-top: 3em;
   font-size: 1.3em;
   display: flex;
@@ -86,40 +78,9 @@ main {
 }
 
 article h2 {
-  /* padding-top: 4em;
-  padding-bottom: 4em; */
   font-size: 2em;
 }
 
-/* 
-
-}
-#About {
-  display: flex;
-  position: relative;
-  width:100%;
-  background-color: crimson;
-  top: 0;
-  left: 0;
-}
-
-.home {
-  border-bottom: 2px
-}
-
-.home h1{
-  display: flex;
-  position: relative;
-  display: block;
-}
-section h1 {
-  position: absolute;
-
-}
-#ids {
-  position:relative;
-  left: 20%;
-} */
 .img {
   background-image: url("image_01.jpeg"); 
   padding-bottom: 7.5em;
