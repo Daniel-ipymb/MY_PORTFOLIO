@@ -130,3 +130,8 @@ section h1 {
   height: 25px;
 }
 
+.contacts {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 2em;
+} 
