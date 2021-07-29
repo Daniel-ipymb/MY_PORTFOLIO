@@ -74,6 +74,7 @@ main {
   margin-top: 3em;
   font-size: 1.3em;
   display: flex;
+ 
   justify-content: center;
 }
 
@@ -95,5 +96,54 @@ article h2 {
   justify-content: space-between;
   display: flex;
   margin-top: 2em;
+  flex-wrap: wrap;
 } 
 
+.project-image {
+  width: 400px;
+  height: 250px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-tile {
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+.project-container div a {
+  color: blue;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.project-container div a:hover {
+  color: blue;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.material-icons {
+  font-size: 15px !important;
+  color: #fff;
+  display: none;
+}
+/* styled the material-icons to change color on hover */
+.project-container a:hover .material-icons {
+  color: blue;
+  display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+  nav, footer {
+      display: flex;
+      flex-direction: column;
+  }
+}
